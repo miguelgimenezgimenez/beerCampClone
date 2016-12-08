@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Bitter', serif;
+    color: #e3d0a5;
+    text-shadow: 2px 2px #212844;
+}
+.signin {
+    background: url("img/texture_orange.png");
+    height: 30px;
+    width: 190px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.signin:hover {
+    height: 40px;
+}
+
+.background-header{
+    background: url("./img/texture_cream.png") ;
+    height: 40px;
+    padding: 8px;
+}
+.signinContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    /*margin-right: 200px;*/
+    width:400px;
+    margin-left: 900px;
+    height: 40px;
+
+
+}
+
+/*line color#a95521*/
+
+#main-nav{
+    height: 70px;
+    background-color: #212844;
+    display: flex;
+    align-items: center;
+
+}
+.container {
+    height: 60px;
+    border-top: solid 4px #a95521;
+    border-bottom: solid 4px #a95521;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+ul li {
+    list-style: none;
+}
+.horizontal  {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    align-items: baseline;
+
+
+}
+#first {
+    border-left: solid 2px #a95521;;
+}
+.main-nav-child{
+
+    padding: 4px 60px 4px 20px;
+    border-right:solid 2px #a95521;
+
+}
+.main-nav-child :hover {
+    background-color: #a95521;
+}
+.vertical-menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+.split-background {
+    text-align: center;
+    height: 500px;
+    background: url("./img/background.jpg");
+    background-size: cover;
+    /*display: flex;*/
+     /*align-items: flex-start;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    padding: 20px;
+    border-bottom: #a95521 solid 4px;
+
+}
+.video {
+    background:url("./img/highlights.png") no-repeat center;
+    /*border: solid 2px  #a95521;*/
+}
+
+#beerlogo {
+    height: 120px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+.fa-angle-down {
+    margin-left: 15px;
+}
+.gallery {
+    border-top:#212844 solid 4px ;
+
+    background: url("./img/texture_cream.png");
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.pattern-bottles {
+    width: 400px;
+}
+
+.banner {
+    background: url(./img/sm_brewers_pouring_banner.png) center no-repeat;
+    width: 600px;
+    height: 30px;
+    text-align: center;
+
+
+}
